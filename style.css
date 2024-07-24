@@ -1,0 +1,152 @@
+html {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(30, 54%, 90%);
+    width: 100%;
+}
+
+.container .box {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 800px;
+    padding: 50px;
+    margin: 100px;
+    border-radius: 20px;
+}
+
+.box img {
+    width: 100%;
+    align-self: center;
+    border-radius: 20px;
+}
+
+p {
+    letter-spacing: 0.5px
+}
+
+.texto-negrito{ 
+    font-weight: 700;
+}
+
+.titulo {
+    font-family: "Young Serif", serif;
+    font-size: 40px;
+    margin: 30px 0px 20px 0px;
+}
+
+.subtitulo{
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+
+}
+
+.preparation {
+    width: 100%;
+    background-color: hsl(330, 100%, 98%);
+    align-content: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.timelist{
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.timelist .item{
+    margin-top: 15px;
+}
+
+.preparation .titulo{
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    color: hsl(332, 51%, 32%);
+    margin: 20px 20px 15px 20px;
+       
+}
+
+.ingredients-list .item{
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.divisoria{
+    color: hsl(30, 18%, 87%);
+    opacity: 0.2;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.preparo {
+   margin-left: 30px;
+   margin-top: 20px;
+}
+
+.preparo .item {
+    line-height: 2;
+    padding-left: 15px;
+}
+
+.preparo .item::marker{
+    color: hsl(332, 51%, 32%);
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+.tabela-nutricao{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+ .tabela-nutricao p{
+   align-self: center;
+}
+
+.data {
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+
+}
+
+tr, td{
+    border-bottom: 1px solid  hsl(30, 18%, 87%);
+    text-align: center;
+    padding: 10px;
+  }
+
+@media (max-width: 770px) {
+
+.box p {
+    text-align: justify;
+}
+
+.titulo {
+    text-align: center;
+}   
+
+
+.timelist {
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+
+.preparation .titulo{
+    text-align: center;       
+}
+}
